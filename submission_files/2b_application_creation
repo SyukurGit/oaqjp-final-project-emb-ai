@@ -1,0 +1,13 @@
+theia@theiaopenshift-username:/home/project/final_project$ python3
+Python 3.11.5 (main, Sep 11 2023, 13:54:39) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> print(emotion_detector('I am really mad about this'))
+{"emotionPredictions": [{"emotion": {"anger": 0.871, "disgust": 0.099, "fear": 0.008, "joy": 0.004, "sadness": 0.018}, "target": "", "emotionMentions": [{"span": {"begin": 0, "end": 26, "text": "I am really mad about this"}, "emotion": {"anger": 0.871, "disgust": 0.099, "fear": 0.008, "joy": 0.004, "sadness": 0.018}}]}]}
+>>> exit()
+theia@theiaopenshift-username:/home/project/final_project$ python3 test_emotion_detection.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.852s
+
+OK
